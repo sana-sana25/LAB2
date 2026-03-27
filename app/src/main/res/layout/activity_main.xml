@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Titre -->
+        <TextView
+            android:text="Calcul des impôts locaux"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#C2185B"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Surface -->
+        <EditText
+            android:id="@+id/input_surface"
+            android:hint="Surface (m²)"
+            android:inputType="number"
+            android:backgroundTint="#E91E63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Pièces -->
+        <EditText
+            android:id="@+id/input_pieces"
+            android:hint="Nombre de pièces"
+            android:inputType="number"
+            android:backgroundTint="#E91E63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Piscine -->
+        <CheckBox
+            android:id="@+id/checkbox_piscine"
+            android:text="Piscine"
+            android:textColor="#880E4F"
+            android:buttonTint="#E91E63"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Bouton -->
+        <Button
+            android:id="@+id/button_calcul"
+            android:text="Calculer"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E91E63"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Résultat -->
+        <TextView
+            android:id="@+id/result"
+            android:text="Résultat ici..."
+            android:textSize="18sp"
+            android:textColor="#4A148C"
+            android:background="#F8BBD0"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
