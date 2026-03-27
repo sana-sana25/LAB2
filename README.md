@@ -40,11 +40,11 @@ Interface simple et moderne :
 - Material Design 
 
 # Fonctionnalités
-✔️ Saisie des données utilisateur
-✔️ Validation des champs
-✔️ Calcul automatique
-✔️ Affichage détaillé (base, supplément, total)
-✔️ Interface moderne et intuitive
+- Saisie des données utilisateur
+- Validation des champs
+- Calcul automatique
+- Affichage détaillé (base, supplément, total)
+- Interface moderne et intuitive
 
 # Exécution du projet
 - Ouvrir le projet avec Android Studio
@@ -55,4 +55,3 @@ Interface simple et moderne :
 
 # Projet réalisé par :
 ASSEKNOUR SANA
-Étudiante en Génie Cyberdéfense et Systèmes de Télécommunications / ENSA Marrakech 🎓
